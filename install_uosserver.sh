@@ -21,12 +21,12 @@ WORKDIR="$(pwd)"
 
 # ===== Per-arch defaults =====
 # ARM64 (Raspberry Pi / ARM servers)
-UNIFI_URL_ARM64_DEFAULT="https://fw-download.ubnt.com/data/unifi-os-server/f791-linux-arm64-4.2.23-59b2566d-15db-4831-81bf-d070a37a3717.23-arm64"
-MD5_ARM64_DEFAULT="f30706d128495781f1fb8af355eaaa78"
+UNIFI_URL_ARM64_DEFAULT="https://fw-download.ubnt.com/data/unifi-os-server/9add-linux-arm64-4.3.6-e74730ee-657b-4b65-9b2e-1c90aabc9ee3.6-arm64"
+MD5_ARM64_DEFAULT="9e8d56f5102f5addd6683323665f058f"
 
 # x86_64 (Intel/AMD)
-UNIFI_URL_AMD64_DEFAULT="https://fw-download.ubnt.com/data/unifi-os-server/8b93-linux-x64-4.2.23-158fa00b-6b2c-4cd8-94ea-e92bc4a81369.23-x64"
-MD5_AMD64_DEFAULT="d0242f7bd9ca40f119df0ba90e97d72b"
+UNIFI_URL_AMD64_DEFAULT="https://fw-download.ubnt.com/data/unifi-os-server/2f3a-linux-x64-4.3.6-be3b4ae0-6bcd-435d-b893-e93da668b9d0.6-x64"
+MD5_AMD64_DEFAULT="db24eb887b42b667e52ea1792cfe0a42"
 
 # Allow overrides via env if needed
 UNIFI_URL_ARM64="${UNIFI_URL_ARM64:-$UNIFI_URL_ARM64_DEFAULT}"

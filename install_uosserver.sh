@@ -121,7 +121,7 @@ download_unifi() {
 run_installer() {
   local file="$1"
   echo "[+] Running UniFi OS Server installer (auto-confirm)…" >&2
-  yes y | "$file" install
+  yes y | "$file"
 }
 
 add_user_to_group() {

@@ -47,7 +47,7 @@ sudo bash install_uosserver.sh
 
 ### 5) Git clone (works even if curl/wget are missing but git is installed)
 ```bash
-git clone https://github.com/dgodibadze/UniFi_OS_Server.git
+git clone https://github.com/Romanocy/UniFi_OS_Server.git
 cd UniFi_OS_Server
 sudo bash install_uosserver.sh
 ```
